@@ -78,7 +78,7 @@ public:
     }
 
 public:
-    virtual const Key& get_key() const noexcept override
+    const Key& get_key() const noexcept override
     {
         return _key;
     }
